@@ -10,7 +10,6 @@ namespace ParkingGarage
     {
         string Width();
         string Height();
-        string OccupySpace();
         string Registration();
     }
 }

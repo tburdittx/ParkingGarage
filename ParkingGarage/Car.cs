@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace ParkingGarage
 {
-    class Car : Vehicle
+    /*
+      Create a vehicle class with the properties and methods needed for the car/bike/van.
+
+     
+     */
+    class Car 
     {
+
+
         public void Height()
         {
 
@@ -16,9 +23,6 @@ namespace ParkingGarage
         {
 
         }
-        public void OccupySpace()
-        {
-
-        }
+        
     }
 }

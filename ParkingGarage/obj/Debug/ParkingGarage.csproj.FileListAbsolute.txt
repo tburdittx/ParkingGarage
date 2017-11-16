@@ -1,0 +1,7 @@
+C:\Work\ParkingGarage\ParkingGarage\ParkingGarage\obj\Debug\ParkingGarage.csprojResolveAssemblyReference.cache
+C:\Work\ParkingGarage\ParkingGarage\ParkingGarage\obj\Debug\ParkingGarage.csproj.CoreCompileInputs.cache
+C:\Work\ParkingGarage\ParkingGarage\ParkingGarage\bin\Debug\ParkingGarage.exe.config
+C:\Work\ParkingGarage\ParkingGarage\ParkingGarage\bin\Debug\ParkingGarage.exe
+C:\Work\ParkingGarage\ParkingGarage\ParkingGarage\bin\Debug\ParkingGarage.pdb
+C:\Work\ParkingGarage\ParkingGarage\ParkingGarage\obj\Debug\ParkingGarage.exe
+C:\Work\ParkingGarage\ParkingGarage\ParkingGarage\obj\Debug\ParkingGarage.pdb

@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
-    <Compile Include="Garage.cs" />
     <Compile Include="GarageSettings.cs" />
     <Compile Include="IGarage.cs" />
     <Compile Include="ParkingGarage.cs" />
@@ -51,7 +50,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IVehicle.cs" />
-    <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleParked.cs" />
+    <Compile Include="Vehicles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

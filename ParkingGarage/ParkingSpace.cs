@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace ParkingGarage
 {
+    /*
+      creates a new parking space
+      states where that new space is
+     
+     */
     public struct ParkingSpace
     {
         public readonly int ParkingSpace1;

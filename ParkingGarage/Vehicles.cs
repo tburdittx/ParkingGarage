@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace ParkingGarage
 {
-    class Garage 
+    class Vehicles
     {
-       
+        public int Height { get; set; }
+        public int Width { get; set; }
+        public string Registration { get; set; }
+
+        p
 
     }
 }

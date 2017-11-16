@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace ParkingGarage
 {
-    class Vehicle
+    /*
+     States when a vehicle has entered the garage and if it has parked 
+     
+     */
+    class VehicleParked
     {
-        public bool VehicleParked;
+        public bool VehicleParked1;
      
 
         public bool CarHasEntered()
@@ -19,7 +23,7 @@ namespace ParkingGarage
         {
             var currentSpace = parkingGarage.FindVehicle(this);
             parkingGarage.ParkVehicle(currentSpace, parkingSpace);
-            VehicleParked = true;
+            VehicleParked1 = true;
         }
     }
 }

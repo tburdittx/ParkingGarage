@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 
 namespace ParkingGarage
 {
+    /*
+      
+     
+     */
     class ParkingGarage
     {
-        private readonly Vehicle[,] parkingGarage;
-        public IList<Vehicle> ParkedCars;
+        private readonly VehicleParked[,] parkingGarage;
+        public IList<VehicleParked> ParkedCars;
 
-        public void AddSpace(ParkingSpace parkingSpace, Vehicle vehicle)
+        public void AddSpace(ParkingSpace parkingSpace, VehicleParked vehicle)
         {
             parkingGarage[parkingSpace.ParkingSpace1, parkingSpace.ParkingSpace1] = vehicle;
         }
-        public ParkingSpace FindVehicle(Vehicle vehicle)
+        public ParkingSpace FindVehicle(VehicleParked vehicle)
         {
             for (var spaces = 0; spaces < GarageSettings.GarageSize; spaces++)
 
                 if (parkingGarage[spaces, spaces] == vehicle)
-                    return ParkingSpace.At(parkingSpace1);
+                    return ParkingSpace.At(parkingSpace1:2);
 
             throw new ArgumentException("The car is not in the garage");
         }
@@ -41,10 +45,10 @@ namespace ParkingGarage
 
         }
 
-        public delegate void SpaceOccupiedEventHandler(Vehicle vehicle);
+        public delegate void SpaceOccupiedEventHandler(VehicleParked vehicle);
 
         public event SpaceOccupiedEventHandler SpaceOccupied;
-        protected virtual void SpaceOccupied1(Vehicle vehicle)
+        protected virtual void SpaceOccupied1(VehicleParked vehicle)
         {
             var handler = SpaceOccupied;
             if (handler != null) handler(vehicle);
